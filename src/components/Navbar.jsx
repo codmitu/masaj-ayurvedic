@@ -2,7 +2,7 @@ import React from 'react'
 import styled from "styled-components"
 import {Link as LinkS} from "react-scroll"
 import { LocationPin } from '@styled-icons/entypo/LocationPin'
-import { Whatsapp } from '@styled-icons/boxicons-logos'
+import { Whatsapp } from '@styled-icons/remix-fill/Whatsapp'
 import logo from "./images/denisa-logo.svg"
 
 
@@ -11,10 +11,10 @@ export const Navbar = () => {
         <Container>
             <TopSide>
                 <Info>
-                    <LocationPin/> Tmișoara
+                    <LocationPin/>&nbsp; Calea Aradului, Tmișoara
                 </Info>
                 <Info>
-                    <Whatsapp /> 0726 439 597
+                    <Whatsapp />&nbsp;  0726 439 597
                 </Info>
             </TopSide>
             <BottomSide>
@@ -35,6 +35,7 @@ const Container = styled.nav`
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 69;
 `
 const TopSide = styled.div`
     height: 30px;

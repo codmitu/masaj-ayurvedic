@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import img2 from './images/img2.png'
+import divider from './images/divider.png'
 
 export const About = () => {
     return (
@@ -23,6 +24,7 @@ export const About = () => {
                     Rezultatul scontat presupune stimularea fluxului de sânge și oxigen care aduc corpul într-un echilibru  fizic dar și mental.
                     </Desc>
                 </DescWrap>
+                <Divider src={divider} alt="divider"/>
             </RightSide>
         </Container>
     )
@@ -30,8 +32,8 @@ export const About = () => {
 
 
 const Container = styled.article`
-    height: 700px;
-    background-color: whitesmoke;
+    min-height: 700px;
+    background-color: #f5f5f5;
     display: flex;
     align-items: center;
     padding: 10vw;
@@ -42,7 +44,8 @@ const LeftSide = styled.section`
     height: 100%;
 `
 const Img = styled.img`
-    /* height: 100%; */
+    filter: drop-shadow(-10px 10px 20px lightgray);
+    max-width: 40vw;
 `
 const RightSide = styled.section`
     flex: 1;
@@ -72,4 +75,8 @@ const Desc= styled.p`
     text-align: justify;
     flex: 1;
     line-height: 1.5;
+`
+const Divider = styled.img`
+    width: 200px;
+    text-align: center;
 `
