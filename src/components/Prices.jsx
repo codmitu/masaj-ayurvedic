@@ -24,8 +24,8 @@ export const Prices = () => {
         onEdge: false,
         arrows: true,
         fade: false,
-        pauseOnHover: false,
-        pauseOnFocus: true,
+        pauseOnHover: true,
+        pauseOnFocus: false,
         responsive: [
             {
               breakpoint: 1200,
@@ -51,7 +51,10 @@ export const Prices = () => {
 
     return (
         <Container id="preturi">
-            <Title>Prețuri și Servicii</Title>
+            <Header>
+                <Title>Prețuri și Servicii</Title>
+                <Subtitle>Scapă de stresul zilei și pășește în lumea relaxării!</Subtitle>
+            </Header>
             <Wrapper>
                 <Slider {...settings}>
                     {data.map(item => (
@@ -66,20 +69,33 @@ export const Prices = () => {
 const Container= styled.article`
     width: 100%;
     min-height: calc(100vh - 100px);
-    background: url(${bg1}) center/cover;
+    background: url(${bg1}) bottom center/cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
     padding: 5vw 0;
+`
+const Header = styled.header`
+    align-self: flex-start;
 `
 const Title = styled.h2`
     font-size: var(--mf);
+    text-align: left;
     font-weight: 400;
-    margin-bottom: var(--sf);
-    align-self: flex-start;
     margin-left: 10vw;
+    margin-bottom: 20px;
+    `
+const Subtitle = styled.h3`
+    margin-bottom: var(--sf);
+    font-weight: 400;
+    margin-bottom: var(--xsf);
+    font-size: var(--xsf);
+    color: gray;
+    font-style: italic;
+    align-self: flex-start;
+    margin-left: 15vw;
 `
 const Wrapper = styled.div`
     width: 100%;

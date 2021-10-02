@@ -1,5 +1,48 @@
 import styled from 'styled-components';
 
+
+
+export default function Schedule() {
+    return (
+        <ScheduleWrapper>
+            <div>
+                <b>Luni</b>
+                <span>09:00</span>
+                <span>16:00</span>
+            </div>
+            <div>
+                <b>Marți</b>
+                <span>09:00</span>
+                <span>16:00</span>
+            </div>
+            <div>
+                <b>Miercuri</b>
+                <span>09:00</span>
+                <span>16:00</span>
+            </div>
+            <div>
+                <b>Joi</b>
+                <span>09:00</span>
+                <span>16:00</span>
+            </div>
+            <div>
+                <b>Vineri</b>
+                <span>09:00</span>
+                <span>16:00</span>
+            </div>
+            <div>
+                <b>Sâmbătă</b>
+                <span>Închis</span>
+            </div>
+            <div>
+                <b>Duminică</b>
+                <span>Închis</span>
+            </div>
+        </ScheduleWrapper>
+    )
+}
+
+
 const ScheduleWrapper = styled.section`
     display: flex;
     width: 100%;
@@ -21,44 +64,3 @@ const ScheduleWrapper = styled.section`
         }
     }
 `
-
-export default function Schedule() {
-    return (
-        <ScheduleWrapper>
-            <div>
-                <b>Luni</b>
-                <span>09:00</span>
-                <span>21:00</span>
-            </div>
-            <div>
-                <b>Marți</b>
-                <span>09:00</span>
-                <span>21:00</span>
-            </div>
-            <div>
-                <b>Miercuri</b>
-                <span>09:00</span>
-                <span>21:00</span>
-            </div>
-            <div>
-                <b>Joi</b>
-                <span>09:00</span>
-                <span>21:00</span>
-            </div>
-            <div>
-                <b>Vineri</b>
-                <span>09:00</span>
-                <span>15:00</span>
-            </div>
-            <div>
-                <b>Sâmbătă</b>
-                <span>09:00</span>
-                <span>15:00</span>
-            </div>
-            <div>
-                <b>Duminică</b>
-                <span>Închis</span>
-            </div>
-        </ScheduleWrapper>
-    )
-}

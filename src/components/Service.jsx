@@ -26,7 +26,7 @@ export const Service = ({item}) => {
 
 const Container = styled.div`
     max-width: 500px;
-    height: 600px;
+    height: 400px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -48,24 +48,25 @@ const Wrapper = styled.div`
     display: flex;
     height: 60%;
     background-color: #ffffffce;
-    padding: 20px 20px 10px;
+    padding: 20px 20px 30px;
     box-sizing: content-box;
     gap: 20px;
 `
-const Desc = styled.ol`
+const Desc = styled.ul`
     height: 400px;
     text-align: justify;
     font-size: var(--xxsf);
     flex: 2;
-    overflow-y: scroll;
+    overflow: scroll;
     padding-right: 10px;
     border-right: 1px solid grey;
     &::-webkit-scrollbar {
-        width: 5px;
+        width: 0px;
     }
 `
 const Li = styled.li`
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    text-indent: 20px;
 `
 const RightSide = styled.div`
     flex: 1;

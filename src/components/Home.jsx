@@ -12,7 +12,7 @@ export const Home = () => {
                 <Subtitle>Terapeută certificată și cu experiență în terapia complementară.</Subtitle>
                 <Title>Relaxare, Terapie și Răsfăț</Title>
                 <Desc><b>Salon Denisa</b> - masaj de relaxare, terapeutic, somatic sau cu roci vulcanice, full body sau parțial. Masajul este o metodă ideală de a reduce tensiunea, îmbunătățește circulația, elimină durerile musculare și oferă o senzație de bine și relaxare. </Desc>
-                <MyButton smooth={true} duration={500} spy={true} exact="true" offset={-100} to="contact">
+                <MyButton smooth={false} duration={500} spy={true} exact="true" offset={-100} to="contact">
                     Programează-te <CalendarCheckFill/>
                 </MyButton>
             </LeftSide>
