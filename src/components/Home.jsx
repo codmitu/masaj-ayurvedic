@@ -27,6 +27,7 @@ export const Home = () => {
 const Container = styled.main`
     min-height: calc(100vh - 100px);
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(${cover}) center / cover;
+    background-attachment: fixed;
     margin-top: 100px;
     display: flex;
     align-items: center;
@@ -81,6 +82,9 @@ const MyButton = styled(LinkS)`
 `
 const RightSide = styled.section`
     flex: 1;
+    @media screen and (max-width: 900px) {
+        display: none;   
+    }
 `
 const Img = styled.img`
     width: 100%;

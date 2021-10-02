@@ -28,7 +28,7 @@ export const FormContact = () => {
 
 
     return (
-        <FormWrapper action="https://formsubmit.co/codmitu@gmail.com" method="POST">
+        <FormWrapper action="https://formsubmit.co/mihailadenisa14@yahoo.com" method="POST">
             <input type="hidden" name="_next" value="https://codimitu.github.io/salon-masaj-denisa/rezervat"/>
             <input type="hidden" name="_subject" value="Programare Salon Denisa"/>
             <input type="hidden" name="_captcha" value="false"/>
@@ -45,7 +45,6 @@ export const FormContact = () => {
                     required
                     variant="outlined"
                     label="Alege data și ora"
-                    // minDate={new Date('2018-01-01T00:00')}
                     inputFormat="dd/MM/yyyy hh:mm a"
                     mask="__/__/___ __:__ _M"
                     renderInput={(params) => <TextField {...params} />}
@@ -114,7 +113,7 @@ export const FormContact = () => {
                 >
                     Rezervă Locul
                 </Button>
-                <Small>Sau trimite mesaj prin sms sau Whatsapp la numărul de telefon 0726 439 597</Small>
+                <Small>Sau trimite mesaj prin sms sau Whatsapp la numărul de telefon <span>0726 439 597</span></Small>
             </LocalizationProvider>
         </FormWrapper>
     )
@@ -144,4 +143,7 @@ const Small = styled.small`
     text-align: left;
     margin: 20px 0;
     color: gray;
+    >span {
+        white-space: nowrap;
+    }
 `

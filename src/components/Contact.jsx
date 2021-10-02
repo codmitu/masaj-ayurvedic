@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 import React from 'react'
 import diploma from './images/denisa-diploma.jpg'
-import bg2 from './images/bg2.png'
 import {FormContact} from './FormContact'
 import Schedule from './Schedule'
 
@@ -27,7 +26,6 @@ const Container = styled.article`
     display: flex;
     flex-direction: column;
     gap: 100px;
-    background: url(${bg2}) top center/cover;
     padding: 5vw;
 `
 const Title = styled.h2`

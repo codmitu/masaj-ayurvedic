@@ -38,6 +38,10 @@ const Container = styled.article`
     align-items: center;
     padding: 10vw;
     gap: 5vw;
+    @media screen and (max-width: 800px) {
+        flex-direction: column;   
+        padding: 5vw;
+    }
 `
 const LeftSide = styled.section`
     flex: 1;
@@ -70,6 +74,9 @@ const DescWrap = styled.article`
     display: flex;
     gap: 50px;
     width: 100%;
+    @media screen and (max-width: 1100px) {
+        flex-direction: column;   
+    }
 `
 const Desc= styled.p`
     text-align: justify;

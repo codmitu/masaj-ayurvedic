@@ -1,19 +1,22 @@
+import { useState } from 'react';
 import './App.css';
 import { About } from './components/About';
-import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { Home } from './components/Home';
 import { Navbar } from './components/Navbar';
-import { Prices } from './components/Prices';
+import { ServicesContact } from './components/ServicesContact';
+import { Sidebar } from './components/Sidebar';
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <div className="App">
-      <Navbar />
+      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Sidebar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Home />
       <About />
-      <Prices />
-      <Contact />
+      <ServicesContact />
       <Footer />
     </div>
   );

@@ -59,6 +59,7 @@ const Desc = styled.ul`
     flex: 2;
     overflow: scroll;
     padding-right: 10px;
+    padding-bottom: 150px;
     border-right: 1px solid grey;
     &::-webkit-scrollbar {
         width: 0px;

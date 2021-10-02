@@ -6,7 +6,11 @@ import { Whatsapp } from '@styled-icons/remix-fill/Whatsapp'
 import logo from "./images/denisa-logo.svg"
 
 
-export const Navbar = () => {
+export const Navbar = ({menuOpen, setMenuOpen}) => {
+    const handleClick = () => {
+        setMenuOpen(!menuOpen);
+    }
+
     return (
         <Container>
             <TopSide>
@@ -25,6 +29,13 @@ export const Navbar = () => {
                     <MyLink  duration={500} spy={true} exact="true" offset={-100} to="preturi">Prețuri</MyLink>
                     <MyLink  duration={500} spy={true} exact="true" offset={-100} to="contact">Contact</MyLink>
                 </LinksWrapp>
+                <Menu className={menuOpen && "active"}>
+                    <div className="hamburger" onClick={handleClick}>
+                        <span className="line1"></span>
+                        <span className="line2"></span>
+                        <span className="line3"></span>
+                    </div>
+                </Menu>
             </BottomSide>
         </Container>
     )
@@ -44,11 +55,15 @@ const TopSide = styled.div`
     justify-content: flex-end;
     background-color: #252525;
     color: white;
+    font-size: var(--xsf);
 `
 const Info = styled.small`
     display: flex;
     align-items: center;
     margin-right: 50px;
+    @media screen and (max-width: 500px) {
+        margin-right: 20px;
+    }
 `
 const BottomSide = styled.div`
     display: flex;
@@ -58,15 +73,18 @@ const BottomSide = styled.div`
     justify-content: space-between;
     box-shadow: 0px 5px 5px #0000001d;
     background-color: white;
+    padding: 0 5vw;
 `
 const Logo = styled.img`
-    margin-left: 100px;
     height: 70px;
+    max-width: 30vw;
 `
 const LinksWrapp = styled.div`
     display: flex;
     gap: 5vw;
-    margin-right: 100px;
+    @media screen and (max-width: 600px) {
+        display: none;
+    }
 `
 const MyLink = styled(LinkS)`
     cursor: pointer;
@@ -76,5 +94,42 @@ const MyLink = styled(LinkS)`
     &.active {
         border-bottom: 1px solid var(--col);
         color: var(--col);
+    }
+`
+const Menu = styled.menu`
+     .hamburger {
+        width: 32px;
+        height: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        cursor: pointer;
+        span {
+            width: 100%;
+            height: 3px;
+            background-color: var(--cbd);
+            transform-origin: left;
+            transition: all 1s ease;
+        }
+    }
+    &.active {
+        /* background-color: #15023a;
+        color: white; */
+        .hamburger {
+            span {
+                &:first-child {
+                    background-color: var(--cbd);
+                    transform: rotate(45deg);
+                }
+                &:nth-child(2) {
+                    opacity: 0;
+                }
+                &:last-child {
+                    background-color: var(--cbd);
+                    transform: rotate(-45deg);
+                }
+            }
+        }
     }
 `

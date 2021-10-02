@@ -28,6 +28,7 @@ export const Footer = () => {
                 <Social href="https://instagram.com" target="_blank">
                     <Img src={insta} alt="instagram logo"/><span>Instagram</span>
                 </Social>
+                <Small2>powered by &copy;{new Date().getFullYear()} codmitu.com</Small2>
             </BottomSide>
         </Container>
     )
@@ -40,18 +41,19 @@ const Container = styled.footer`
     justify-content: space-between;
     align-items: center;
     min-height: 300px;
-    background: url(${bg3}) center/cover;
+    background: url(${bg3}) no-repeat bottom 0 left 50%/cover;
     color: white;
+    background-attachment: fixed;
 `
 const BTT = styled.div`
     width: 100%;
     height: 50px;
-    background-color: #00000088;
     line-height: 50px;
     cursor: pointer;
     color: whitesmoke;
+    background-color: #2b2b2b52;
     &:hover {
-        background-color: #2b2b2b52;
+        background-color: #00000088;
     }
     >svg {
         transform: rotateZ(90deg);
@@ -64,6 +66,7 @@ const Divider = styled.img`
 `
 const MiddleSide = styled.div`
     width: 1000px;
+    max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -82,6 +85,8 @@ const BottomSide = styled.div`
     justify-content: space-between;
     width: 1000px;
     padding: 2vh 5vw;
+    max-width: 100%;
+    flex-wrap: wrap;
 `
 const Logo = styled.img`
 
@@ -89,6 +94,18 @@ const Logo = styled.img`
 const Small = styled.small`
     font-size: var(--xxsf);
     color: lightgray;
+    @media screen and (max-width: 500px) {
+        display: none;
+    }
+`
+const Small2 = styled.small`
+    font-size: var(--xxsf);
+    color: lightgray;
+    margin: 10px auto;
+    width: 100%;
+    @media screen and (min-width: 500px) {
+        display: none;
+    }
 `
 const Social = styled.a`
     display: flex;

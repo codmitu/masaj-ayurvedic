@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import bg1 from "./images/bg1.png"
 import { Service } from './Service';
 import {data} from './data'
 import Slider from "react-slick";
@@ -22,7 +21,7 @@ export const Prices = () => {
         autoplay: true,
         autoplaySpeed: 10000,
         onEdge: false,
-        arrows: true,
+        arrows: false,
         fade: false,
         pauseOnHover: true,
         pauseOnFocus: false,
@@ -69,7 +68,6 @@ export const Prices = () => {
 const Container= styled.article`
     width: 100%;
     min-height: calc(100vh - 100px);
-    background: url(${bg1}) bottom center/cover;
     display: flex;
     flex-direction: column;
     align-items: center;
