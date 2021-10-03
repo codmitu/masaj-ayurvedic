@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/salon-masaj-denisa/static/css/main.37d132d2.chunk.css",
-    "main.js": "/salon-masaj-denisa/static/js/main.ade603ae.chunk.js",
-    "main.js.map": "/salon-masaj-denisa/static/js/main.ade603ae.chunk.js.map",
-    "runtime-main.js": "/salon-masaj-denisa/static/js/runtime-main.29018114.js",
-    "runtime-main.js.map": "/salon-masaj-denisa/static/js/runtime-main.29018114.js.map",
+    "main.js": "/salon-masaj-denisa/static/js/main.d0bbae00.chunk.js",
+    "main.js.map": "/salon-masaj-denisa/static/js/main.d0bbae00.chunk.js.map",
+    "runtime-main.js": "/salon-masaj-denisa/static/js/runtime-main.74e5d920.js",
+    "runtime-main.js.map": "/salon-masaj-denisa/static/js/runtime-main.74e5d920.js.map",
     "static/css/2.57a29a7b.chunk.css": "/salon-masaj-denisa/static/css/2.57a29a7b.chunk.css",
-    "static/js/2.ca911121.chunk.js": "/salon-masaj-denisa/static/js/2.ca911121.chunk.js",
-    "static/js/2.ca911121.chunk.js.map": "/salon-masaj-denisa/static/js/2.ca911121.chunk.js.map",
-    "static/js/3.2d2929d6.chunk.js": "/salon-masaj-denisa/static/js/3.2d2929d6.chunk.js",
-    "static/js/3.2d2929d6.chunk.js.map": "/salon-masaj-denisa/static/js/3.2d2929d6.chunk.js.map",
+    "static/js/2.3ab76876.chunk.js": "/salon-masaj-denisa/static/js/2.3ab76876.chunk.js",
+    "static/js/2.3ab76876.chunk.js.map": "/salon-masaj-denisa/static/js/2.3ab76876.chunk.js.map",
+    "static/js/3.dbd0119c.chunk.js": "/salon-masaj-denisa/static/js/3.dbd0119c.chunk.js",
+    "static/js/3.dbd0119c.chunk.js.map": "/salon-masaj-denisa/static/js/3.dbd0119c.chunk.js.map",
     "index.html": "/salon-masaj-denisa/index.html",
     "static/css/2.57a29a7b.chunk.css.map": "/salon-masaj-denisa/static/css/2.57a29a7b.chunk.css.map",
     "static/css/main.37d132d2.chunk.css.map": "/salon-masaj-denisa/static/css/main.37d132d2.chunk.css.map",
-    "static/js/2.ca911121.chunk.js.LICENSE.txt": "/salon-masaj-denisa/static/js/2.ca911121.chunk.js.LICENSE.txt",
+    "static/js/2.3ab76876.chunk.js.LICENSE.txt": "/salon-masaj-denisa/static/js/2.3ab76876.chunk.js.LICENSE.txt",
     "static/media/bg1.2d37c561.png": "/salon-masaj-denisa/static/media/bg1.2d37c561.png",
     "static/media/bg3.a6e066ed.png": "/salon-masaj-denisa/static/media/bg3.a6e066ed.png",
     "static/media/cover.28725e8c.png": "/salon-masaj-denisa/static/media/cover.28725e8c.png",
@@ -31,10 +31,10 @@
     "static/media/slick-theme.css": "/salon-masaj-denisa/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.29018114.js",
+    "static/js/runtime-main.74e5d920.js",
     "static/css/2.57a29a7b.chunk.css",
-    "static/js/2.ca911121.chunk.js",
+    "static/js/2.3ab76876.chunk.js",
     "static/css/main.37d132d2.chunk.css",
-    "static/js/main.ade603ae.chunk.js"
+    "static/js/main.d0bbae00.chunk.js"
   ]
 }
