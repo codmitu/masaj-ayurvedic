@@ -32,6 +32,7 @@ const Title = styled.h2`
     font-size: var(--mf);
     font-weight: 400;
     margin-bottom: var(--sf);
+    margin-left: 5vw;
 `
 const Wrapper = styled.div`
     display: flex;
