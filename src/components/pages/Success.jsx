@@ -6,8 +6,8 @@ export const Success = () => {
     return (
         <Container>
             <h1>Success</h1>
-            <p>Ai făcut o rezervare la Salon Masaj Denisa</p>
-            <a href="https://codmitu.github.io/salon-masaj-denisa/">Mergi înapoi la pagina principală</a>
+            <p>Ai făcut o rezervare la Salon Masaj Ayurvedic</p>
+            <a href="https://codmitu.github.io/masaj-ayurvedic">Mergi înapoi la pagina principală</a>
         </Container>
     )
 }

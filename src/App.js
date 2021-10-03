@@ -6,7 +6,7 @@ import React from 'react';
 function App() {
   return (
     <div>
-      <Router basename="/salon-masaj-denisa">
+      <Router basename="/masaj-ayurvedic">
         {/* <Router > */}
         <Switch>
           <Route path="/" exact>
