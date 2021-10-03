@@ -18,7 +18,7 @@ export const Prices = () => {
         centerMode: true,
         accessibility: true,
         autoplay: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 10000,
         onEdge: false,
         arrows: false,
         fade: false,

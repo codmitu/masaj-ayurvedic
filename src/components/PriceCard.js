@@ -32,7 +32,7 @@ export const PriceCard = ({ item }) => {
 
 const Container = styled.div`
     max-width: 600px;
-    height: 400px;
+    height: 500px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;

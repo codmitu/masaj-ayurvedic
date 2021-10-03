@@ -4,20 +4,53 @@ import cover from './images/cover.png'
 import img1 from './images/img1.png'
 import {Link as LinkS} from "react-scroll"
 import {CalendarCheckFill} from "@styled-icons/bootstrap/CalendarCheckFill"
+import {motion} from 'framer-motion'
+
 
 export const Home = () => {
+    const container = {
+        hidden: { opacity: 0 },
+        show: {
+          opacity: 1,
+          transition: {
+            staggerChildren: 0.2,
+            staggerDirection: -1,
+            delayChildren: 1.3,
+          }
+        }
+    }
+    
+    const item = {
+        hidden: { opacity: 0, x: -100 },
+        show: { opacity: 1, x: 0 }
+    }
+    
+    
     return (
         <Container id="acasa">
-            <LeftSide>
-                <Subtitle>Terapeută certificată și cu experiență în terapia complementară.</Subtitle>
-                <Title>Relaxare, Terapie și Răsfăț</Title>
-                <Desc><b>Ayurvedic Masaj</b> - masaj de relaxare, terapeutic, somatic sau cu roci vulcanice, full body sau parțial. Masajul este o metodă ideală de a reduce tensiunea, îmbunătățește circulația, elimină durerile musculare și oferă o senzație de bine și relaxare. </Desc>
-                <MyButton smooth={false} duration={500} spy={true} exact="true" offset={-100} to="contact">
+            <LeftSide as={motion.section} variants={container} initial="hidden" animate="show">
+                <Subtitle as={motion.h3} variants={item}>Terapeută certificată și cu experiență în terapia complementară.</Subtitle>
+                <Title as={motion.h1} variants={item}>Relaxare, Terapie și Răsfăț</Title>
+                <Desc as={motion.p} variants={item}><b>Ayurvedic Masaj</b> - masaj de relaxare, terapeutic, somatic sau cu roci vulcanice, full body sau parțial. Masajul este o metodă ideală de a reduce tensiunea, îmbunătățește circulația, elimină durerile musculare și oferă o senzație de bine și relaxare. </Desc>
+                <MyButton 
+                    as={motion.a}
+                    variants={item} 
+                    smooth={false} 
+                    duration={500} 
+                    spy={true} 
+                    exact="true" 
+                    offset={-100} 
+                    to="contact"
+                >
                     Programează-te <CalendarCheckFill/>
                 </MyButton>
             </LeftSide>
             <RightSide>
-                <Img src={img1} alt="salon masaj" />
+                <Img  as={motion.img} 
+                    initial={{opacity: 0, y: 100}} 
+                    animate={{opacity: 1, y: 0}} 
+                    transition={{delay: 1.3, duration: 1}} 
+                    src={img1} alt="salon masaj" />
             </RightSide>
         </Container>
     )

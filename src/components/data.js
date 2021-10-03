@@ -2,6 +2,7 @@ import imgA from "./images/imgA.jpg"
 import imgB from "./images/imgB.jpg"
 import imgC from "./images/imgC.jpg"
 import imgD from "./images/imgD.jpg"
+import imgE from "./images/imgE.jpg"
 
 export const data = [
     {
@@ -44,7 +45,7 @@ export const data = [
             "Se lucrează la deblocarea chakrelor și se armonizează cu 2 pietre calde.",
             "Masajul ayurvedic ajută la armonizarea celor trei elemente care alcătuiesc orice ființă, potrivit principiilor Ayurveda: Vata (sistem nervos și hormonal), Pitta (sistem digestiv și enzime), Kapha (sângele). Este foarte eficient în caz de oboseală, insomnie, depresie și anchilozare."
         ],
-        zones: ["cap", "spate", "brațe", "picioare", "tălpi"],
+        zones: ["cap", "spate", "brațe", "picioare", "tălpi", "față", "umeri", "piept", "stomac"],
         price: "300 RON",
         time: "70 minute",
         image: imgD,
@@ -61,9 +62,26 @@ export const data = [
             "Căldura pietrelor va stimula circulația și metabolismul, favorizând procesul de detoxifiere și restabilind, în final, echilibrul organismului. De asmenea, peilea încălzită va absorbi mai bine uleiurile folosite în timpul masajului.",
             "Acest tratament îți va da o stare de armonie profundă. Noi îl recomandăm pentru detoxifierea corpului, pentru ameliorarea durerilor și a spasmelor musculare și pentru îmbunătățirea metabolismului în întregul corp."
         ],
-        zones: ["N/A"],
+        zones: ["cap", "spate", "brațe", "picioare", "tălpi", "față", "umeri", "piept", "stomac"],
         price: "180 RON",
         time: "60 minute",
         image: imgA,
+    },
+    {
+        id: 4,
+        title: "Masaj cu bețe de bambus",
+        desc: [
+            "Bețele de bambus sunt folosite de mii de ani în medicina tradițională asiatică ca instrument de masaj și terapie. În cultura orientală, bambusul are un rol esențial, nu doar în menținerea sănătății, ci și ca simbol al rezistenței, longevității și fertilității. Prin folosirea bețelor de bambus este îmbunătățită circulația fluidelor, temperatura corpului se reglează și se obține o stare de revitalizare generală",
+            "Masajul cu bambus este mai profund decât un simplu masaj anticelulitic și de remodelare corporală, și însumează efectele benefice ale masajului de drenaj limfatic pentru detoxifierea organismului și ale masajului de relaxare, revitalizând organismul și redând starea generală de bine.",
+            "1. Remodelare corporală în timp scurt. Dacă vrei o siluetă zveltă, o piele fermă, micșorarea circumferinței corporale și accelerarea dispariției grăsimilor suplimentare, atunci masajul cu bambus este cel mai potrivit.",
+            "2. Relaxarea și tonifierea mușchilor. Masajul cu bambus are efecte vizibile asupra musculaturii, ajutând la relaxarea acestora. În cadrul ședințelor de masaj, vei vedea cum mușchii se detensionează, cum se modelează și cum scapi de senzația de picioare grele și obosite. Tonifierea musculaturii este încă unul dintre beneficiile care te vor bucura cel mai mult.",
+            "3. Diminuarea și dispariția celulitei și a vergeturilor cu rezultate rapide. În funcție de persoană, rezultatele pot apărea în 5-7 ședințe. Pentru efecte semnificative pot fi realizate chiar 2-3 ședințe săptămânal timp de o lună. Există multe metode de a slăbi care promit rezultate rapide, însă puține reușesc să ofere aceste rezultate cu adevărat. Și încă mai puține astfel de metode sunt sănătoase. Masajul cu bambus este o terapie 100% naturală non-agresivă, care ajută la stimularea funcțiilor naturale ale organismului.",
+            "4. Drenaj limfatic și presopunctură. Duritatea bețelor de bambus le fac uneltele perfecte pentru stimularea sistemului limfatic și dezintoxicare intensivă a organismului. Prin masajul cu bambus, corpul începe să elimine apa în exces din organism, dar și toxinele.",
+            "5. Intensificarea circulației sanguine."
+        ],
+        zones: ["cap", "spate", "brațe", "picioare", "tălpi", "față", "umeri", "piept", "stomac"],
+        price: "120 RON",
+        time: "60 minute",
+        image: imgE,
     }
 ]
