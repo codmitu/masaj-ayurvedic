@@ -104,6 +104,7 @@ const Small2 = styled.small`
     color: lightgray;
     margin: 10px auto;
     width: 100%;
+    text-align: center;
     @media screen and (min-width: 500px) {
         display: none;
     }
