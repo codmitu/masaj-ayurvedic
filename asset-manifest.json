@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/salon-masaj-denisa/static/css/main.37d132d2.chunk.css",
-    "main.js": "/salon-masaj-denisa/static/js/main.400018e2.chunk.js",
-    "main.js.map": "/salon-masaj-denisa/static/js/main.400018e2.chunk.js.map",
+    "main.js": "/salon-masaj-denisa/static/js/main.b09dc513.chunk.js",
+    "main.js.map": "/salon-masaj-denisa/static/js/main.b09dc513.chunk.js.map",
     "runtime-main.js": "/salon-masaj-denisa/static/js/runtime-main.74e5d920.js",
     "runtime-main.js.map": "/salon-masaj-denisa/static/js/runtime-main.74e5d920.js.map",
     "static/css/2.57a29a7b.chunk.css": "/salon-masaj-denisa/static/css/2.57a29a7b.chunk.css",
@@ -18,7 +18,8 @@
     "static/media/bg3.a6e066ed.png": "/salon-masaj-denisa/static/media/bg3.a6e066ed.png",
     "static/media/cover.28725e8c.png": "/salon-masaj-denisa/static/media/cover.28725e8c.png",
     "static/media/denisa-diploma.8b29329d.jpg": "/salon-masaj-denisa/static/media/denisa-diploma.8b29329d.jpg",
-    "static/media/denisa-logo.7d8493ce.svg": "/salon-masaj-denisa/static/media/denisa-logo.7d8493ce.svg",
+    "static/media/denisa-logo-white.6fe77d5c.svg": "/salon-masaj-denisa/static/media/denisa-logo-white.6fe77d5c.svg",
+    "static/media/denisa-logo.0e0d4b74.svg": "/salon-masaj-denisa/static/media/denisa-logo.0e0d4b74.svg",
     "static/media/divider.543f3cd7.png": "/salon-masaj-denisa/static/media/divider.543f3cd7.png",
     "static/media/divider2.91a239e4.png": "/salon-masaj-denisa/static/media/divider2.91a239e4.png",
     "static/media/img1.8ac9083d.png": "/salon-masaj-denisa/static/media/img1.8ac9083d.png",
@@ -35,6 +36,6 @@
     "static/css/2.57a29a7b.chunk.css",
     "static/js/2.3ab76876.chunk.js",
     "static/css/main.37d132d2.chunk.css",
-    "static/js/main.400018e2.chunk.js"
+    "static/js/main.b09dc513.chunk.js"
   ]
 }
