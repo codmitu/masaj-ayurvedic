@@ -64,6 +64,7 @@ export const FormContact = () => {
                         <MenuItem value="Masajul-Lomi-Lomi">♨ Masajul Lomi-Lomi - 120 RON</MenuItem>
                         <MenuItem value="Terapia-indiana Ayurveda">♨ Terapia indiană Ayurveda - 300 RON</MenuItem>
                         <MenuItem value="Masaj-cu-roci-vulcanice">♨ Masaj cu roci vulcanice - 180 RON</MenuItem>
+                        <MenuItem value="Masaj-cu-bete-de-bambus">♨ Masaj cu bețe de bambus - 120 RON</MenuItem>
                     </Select>
                 </FormControl>
                 <input type="text" style={{display: "none"}} name="Data-Ora" value={dateTime.toLocaleString("ro")} readOnly/>
