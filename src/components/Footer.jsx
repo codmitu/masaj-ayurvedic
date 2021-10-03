@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import divider from "./images/divider2.png"
 import {Arrow90degLeft} from "@styled-icons/bootstrap/Arrow90degLeft"
-import logo from "./images/denisa-logo.svg"
+import logo2 from "./images/denisa-logo-white.svg"
 import insta from "./images/instagram.png"
 import { LocationPin } from '@styled-icons/entypo/LocationPin'
 import { Whatsapp } from '@styled-icons/remix-fill/Whatsapp'
@@ -23,9 +23,9 @@ export const Footer = () => {
                 <P><b>Program: </b>L-V 9-16</P>
             </MiddleSide>
             <BottomSide>
-                <Logo src={logo} alt="Salon Denisa logo"/>
+                <Logo src={logo2} alt="Salon Denisa logo"/>
                 <Small>powered by &copy;{new Date().getFullYear()} codmitu.com</Small>
-                <Social href="https://instagram.com" target="_blank">
+                <Social href="https://www.instagram.com/masaj_ayurvedic_timisoara/" target="_blank">
                     <Img src={insta} alt="instagram logo"/><span>Instagram</span>
                 </Social>
                 <Small2>powered by &copy;{new Date().getFullYear()} codmitu.com</Small2>
@@ -90,7 +90,7 @@ const BottomSide = styled.div`
     flex-wrap: wrap;
 `
 const Logo = styled.img`
-
+    max-width: 100px;
 `
 const Small = styled.small`
     font-size: var(--xxsf);
