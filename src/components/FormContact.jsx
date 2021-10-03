@@ -27,8 +27,8 @@ export const FormContact = () => {
 
 
     return (
-        <FormWrapper action="https://formsubmit.co/codmitu@gmail.com" method="POST">
-            <input type="hidden" name="_next" value="https://codimitu.github.io/salon-masaj-denisa/success"/>
+        <FormWrapper action="https://formsubmit.co/mihailadenisa14@yahoo.com" method="POST">
+            <input type="hidden" name="_next" value="https://codmitu.github.io/salon-masaj-denisa/success"/>
             <input type="hidden" name="_subject" value="Programare Salon Denisa"/>
             <input type="hidden" name="_captcha" value="false"/>
             {/* <input type="hidden" name="_autoresponse" value="Te-ai programat cu succes la Salon Denisa"/> */}
