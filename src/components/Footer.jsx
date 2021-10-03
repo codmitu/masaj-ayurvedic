@@ -23,7 +23,7 @@ export const Footer = () => {
                 <P><b>Program: </b>L-V 9-16</P>
             </MiddleSide>
             <BottomSide>
-                <Logo src={logo2} alt="Salon Denisa logo"/>
+                <Logo src={logo2} alt="masaj-ayurvedic logo"/>
                 <Small>powered by &copy;{new Date().getFullYear()} codmitu.com</Small>
                 <Social href="https://www.instagram.com/masaj_ayurvedic_timisoara/" target="_blank">
                     <Img src={insta} alt="instagram logo"/><span>Instagram</span>
