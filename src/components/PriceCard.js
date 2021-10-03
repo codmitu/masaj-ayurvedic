@@ -61,18 +61,11 @@ const Wrapper = styled.div`
 const Desc = styled.ul`
     text-align: justify;
     font-size: var(--xsf);
-    /* overflow-y: scroll; */
     padding-right: 10px;
     border-right: 1px solid grey;
     &::-webkit-scrollbar {
         width: 0px;
     }
-    /* &::-webkit-scrollbar-track {
-        background-color: red;
-    }
-    &::-webkit-scrollbar-thumb {
-        background-color: red;
-    } */
 `
 const Li = styled.li`
     margin-bottom: 20px;
@@ -93,9 +86,16 @@ const P = styled.p`
 const Ul = styled.ul`
     display: flex;
     justify-content: space-between;
-    list-style-type: "⚛";
+    list-style-type: "➛ ";
     line-height: 1.5;
+    font-size: var(--xsf);
     >span >li {
         color: var(--cbd);
+    }
+    @media screen and (max-width: 500px) {
+        flex-direction: column;
+        >span {
+            align-self: flex-end;
+        }
     }
 `

@@ -23,7 +23,7 @@ export const Prices = () => {
         arrows: false,
         fade: false,
         pauseOnHover: true,
-        pauseOnFocus: false,
+        pauseOnFocus: true,
         responsive: [
             {
               breakpoint: 1200,
