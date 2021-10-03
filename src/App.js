@@ -1,23 +1,22 @@
-import { useState } from 'react';
-import './App.css';
-import { About } from './components/About';
-import { Footer } from './components/Footer';
-import { Home } from './components/Home';
-import { Navbar } from './components/Navbar';
-import { ServicesContact } from './components/ServicesContact';
-import { Sidebar } from './components/Sidebar';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { MainPage } from './components/pages/MainPage';
+import { Success } from './components/pages/Success';
+import React from 'react';
 
 function App() {
-  const [menuOpen, setMenuOpen] = useState(false);
-
   return (
-    <div className="App">
-      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <Sidebar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <Home />
-      <About />
-      <ServicesContact />
-      <Footer />
+    <div>
+      <Router basename="/salon-masaj-denisa">
+        {/* <Router > */}
+        <Switch>
+          <Route path="/" exact>
+            <MainPage />
+          </Route>
+          <Route path="/success" exact>
+            <Success />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }

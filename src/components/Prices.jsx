@@ -1,11 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Service } from './Service';
 import {data} from './data'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import {PriceCard} from './PriceCard'
 
 
 export const Prices = () => {
@@ -57,7 +56,7 @@ export const Prices = () => {
             <Wrapper>
                 <Slider {...settings}>
                     {data.map(item => (
-                        <Service key={item.id} item={item}/>
+                        <PriceCard key={item.id} item={item}/>
                     ))}
                 </Slider>
             </Wrapper>

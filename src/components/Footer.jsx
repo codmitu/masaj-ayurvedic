@@ -18,7 +18,7 @@ export const Footer = () => {
                 <Left>
                     <P><Whatsapp/> 0726 439 597</P>
                     <P><Sms/> 0726 439 597</P>
-                    <P><LocationPin/> Calea Aradului, Timișoara, Timiș</P>
+                    <P><LocationPin/> Calea Aradului, Timișoara</P>
                 </Left>
                 <P><b>Program: </b>L-V 9-16</P>
             </MiddleSide>
@@ -40,7 +40,7 @@ const Container = styled.footer`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    min-height: 300px;
+    min-height: 400px;
     background: url(${bg3}) no-repeat bottom 0 left 50%/cover;
     color: white;
     background-attachment: fixed;
@@ -52,6 +52,7 @@ const BTT = styled.div`
     cursor: pointer;
     color: whitesmoke;
     background-color: #2b2b2b52;
+    text-align: center;
     &:hover {
         background-color: #00000088;
     }
@@ -62,7 +63,7 @@ const BTT = styled.div`
 `
 const Divider = styled.img`
     width: 150px;
-    margin: 30px;
+    margin: 0 0 30px;
 `
 const MiddleSide = styled.div`
     width: 1000px;

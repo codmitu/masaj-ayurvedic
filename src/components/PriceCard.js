@@ -1,15 +1,21 @@
 import React from 'react'
 import styled from 'styled-components'
+import SimpleBar from 'simplebar-react';
+import 'simplebar/dist/simplebar.min.css';
 
-export const Service = ({item}) => {
+export const PriceCard = ({ item }) => {
+
+
     return (
-        <Container style={{background: `url(${item.image}) center/cover`}}>
+        <Container style={{ background: `url(${item.image}) center/cover` }}>
             <Title>{item.title}</Title>
             <Wrapper>
-                <Desc>{item.desc.map((li, i) => (
-                    <Li key={i}>{li}</Li>
-                ))}
-                </Desc>
+                <SimpleBar forceVisible="y" autoHide={false} style={{ maxHeight: 300, flex: 2 }}>
+                    <Desc>{item.desc.map((li, i) => (
+                        <Li key={i}>{li}</Li>
+                    ))}
+                    </Desc>
+                </SimpleBar>
                 <RightSide>
                     <P><i>Preț: </i> {item.price}</P>
                     <P><i>Timp: </i> {item.time}</P>
@@ -25,7 +31,7 @@ export const Service = ({item}) => {
 
 
 const Container = styled.div`
-    max-width: 500px;
+    max-width: 600px;
     height: 400px;
     border-radius: 20px;
     display: flex;
@@ -48,22 +54,25 @@ const Wrapper = styled.div`
     display: flex;
     height: 60%;
     background-color: #ffffffce;
-    padding: 20px 20px 30px;
+    padding: 20px;
     box-sizing: content-box;
     gap: 20px;
 `
 const Desc = styled.ul`
-    height: 400px;
     text-align: justify;
-    font-size: var(--xxsf);
-    flex: 2;
-    overflow: scroll;
+    font-size: var(--xsf);
+    /* overflow-y: scroll; */
     padding-right: 10px;
-    padding-bottom: 150px;
     border-right: 1px solid grey;
     &::-webkit-scrollbar {
         width: 0px;
     }
+    /* &::-webkit-scrollbar-track {
+        background-color: red;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: red;
+    } */
 `
 const Li = styled.li`
     margin-bottom: 20px;

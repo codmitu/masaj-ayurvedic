@@ -132,4 +132,7 @@ const Menu = styled.menu`
             }
         }
     }
+    @media screen and (min-width: 600px) {
+        display: none;
+    }
 `
