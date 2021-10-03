@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/salon-masaj-denisa/static/css/main.37d132d2.chunk.css",
-    "main.js": "/salon-masaj-denisa/static/js/main.00318334.chunk.js",
-    "main.js.map": "/salon-masaj-denisa/static/js/main.00318334.chunk.js.map",
+    "main.js": "/salon-masaj-denisa/static/js/main.780a9baf.chunk.js",
+    "main.js.map": "/salon-masaj-denisa/static/js/main.780a9baf.chunk.js.map",
     "runtime-main.js": "/salon-masaj-denisa/static/js/runtime-main.74e5d920.js",
     "runtime-main.js.map": "/salon-masaj-denisa/static/js/runtime-main.74e5d920.js.map",
     "static/css/2.57a29a7b.chunk.css": "/salon-masaj-denisa/static/css/2.57a29a7b.chunk.css",
@@ -35,6 +35,6 @@
     "static/css/2.57a29a7b.chunk.css",
     "static/js/2.3ab76876.chunk.js",
     "static/css/main.37d132d2.chunk.css",
-    "static/js/main.00318334.chunk.js"
+    "static/js/main.780a9baf.chunk.js"
   ]
 }
