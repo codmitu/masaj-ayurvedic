@@ -33,7 +33,7 @@ export const Home = () => {
                 <Title as={motion.h1} variants={item}>Relaxare, Terapie și Răsfăț</Title>
                 <Desc as={motion.p} variants={item}><b>Ayurvedic Masaj</b> - masaj de relaxare, terapeutic, somatic sau cu roci vulcanice, full body sau parțial. Masajul este o metodă ideală de a reduce tensiunea, îmbunătățește circulația, elimină durerile musculare și oferă o senzație de bine și relaxare. </Desc>
                 <MyButton 
-                    as={motion.a}
+                    component={motion.LinkS}
                     variants={item} 
                     smooth={false} 
                     duration={500} 
