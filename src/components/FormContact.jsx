@@ -11,6 +11,7 @@ import MobileDateTimePicker from '@mui/lab/MobileDateTimePicker';
 import LocalizationProvider from '@mui/lab/LocalizationProvider';
 import AdapterDateFns from '@mui/lab/AdapterDateFns';
 import Box from '@mui/material/Box';
+import roLocale from 'date-fns/locale/ro';
 
 
 export const FormContact = () => {
@@ -34,18 +35,28 @@ export const FormContact = () => {
             {/* <input type="hidden" name="_autoresponse" value="Te-ai programat cu succes la Salon Denisa"/> */}
             {/* <input type="email" name="email" placeholder="Email Address"/> */}
             <input type="hidden" name="_template" value="box"/>
-            <LocalizationProvider dateAdapter={AdapterDateFns}>
+            <LocalizationProvider locale={roLocale} dateAdapter={AdapterDateFns}>
                 <MobileDateTimePicker
                     value={dateTime}
                     onChange={(date) => {
                         setDateTime(date);
                     }}
+                    ampm={false}
+                    ampmInClock={false}
                     fullWidth
                     required
-                    variant="outlined"
+                    // timeIcon={<Time/>}
+                    cancelText="Anulează"
+                    okText="Ok"
+                    variant="dialog"
                     label="Alege data și ora"
-                    inputFormat="dd/MM/yyyy hh:mm a"
-                    mask="__/__/___ __:__ _M"
+                    inputFormat="dd/MM/yyyy HH:mm"
+                    mask="__/__/___ __:__"
+                    minutesStep={5}
+                    minDate={new Date(Date.now() + 56000000)}
+                    minTime={new Date(0, 0, 0, 9)}
+                    maxTime={new Date(0, 0, 0, 16, 0)}
+                    format="M"
                     renderInput={(params) => <TextField {...params} />}
                 />
                 <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
