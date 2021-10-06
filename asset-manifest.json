@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/masaj-ayurvedic/static/css/main.37d132d2.chunk.css",
-    "main.js": "/masaj-ayurvedic/static/js/main.5d44335c.chunk.js",
-    "main.js.map": "/masaj-ayurvedic/static/js/main.5d44335c.chunk.js.map",
-    "runtime-main.js": "/masaj-ayurvedic/static/js/runtime-main.b3c191e9.js",
-    "runtime-main.js.map": "/masaj-ayurvedic/static/js/runtime-main.b3c191e9.js.map",
+    "main.js": "/masaj-ayurvedic/static/js/main.adc1c4d8.chunk.js",
+    "main.js.map": "/masaj-ayurvedic/static/js/main.adc1c4d8.chunk.js.map",
+    "runtime-main.js": "/masaj-ayurvedic/static/js/runtime-main.4293b0c9.js",
+    "runtime-main.js.map": "/masaj-ayurvedic/static/js/runtime-main.4293b0c9.js.map",
     "static/css/2.007c3daf.chunk.css": "/masaj-ayurvedic/static/css/2.007c3daf.chunk.css",
-    "static/js/2.d0cab8e7.chunk.js": "/masaj-ayurvedic/static/js/2.d0cab8e7.chunk.js",
-    "static/js/2.d0cab8e7.chunk.js.map": "/masaj-ayurvedic/static/js/2.d0cab8e7.chunk.js.map",
-    "static/js/3.f3ba02be.chunk.js": "/masaj-ayurvedic/static/js/3.f3ba02be.chunk.js",
-    "static/js/3.f3ba02be.chunk.js.map": "/masaj-ayurvedic/static/js/3.f3ba02be.chunk.js.map",
+    "static/js/2.104e2f13.chunk.js": "/masaj-ayurvedic/static/js/2.104e2f13.chunk.js",
+    "static/js/2.104e2f13.chunk.js.map": "/masaj-ayurvedic/static/js/2.104e2f13.chunk.js.map",
+    "static/js/3.d4fdb519.chunk.js": "/masaj-ayurvedic/static/js/3.d4fdb519.chunk.js",
+    "static/js/3.d4fdb519.chunk.js.map": "/masaj-ayurvedic/static/js/3.d4fdb519.chunk.js.map",
     "index.html": "/masaj-ayurvedic/index.html",
     "static/css/2.007c3daf.chunk.css.map": "/masaj-ayurvedic/static/css/2.007c3daf.chunk.css.map",
     "static/css/main.37d132d2.chunk.css.map": "/masaj-ayurvedic/static/css/main.37d132d2.chunk.css.map",
-    "static/js/2.d0cab8e7.chunk.js.LICENSE.txt": "/masaj-ayurvedic/static/js/2.d0cab8e7.chunk.js.LICENSE.txt",
+    "static/js/2.104e2f13.chunk.js.LICENSE.txt": "/masaj-ayurvedic/static/js/2.104e2f13.chunk.js.LICENSE.txt",
     "static/media/bg1.2d37c561.png": "/masaj-ayurvedic/static/media/bg1.2d37c561.png",
     "static/media/bg3.a6e066ed.png": "/masaj-ayurvedic/static/media/bg3.a6e066ed.png",
     "static/media/cover.28725e8c.png": "/masaj-ayurvedic/static/media/cover.28725e8c.png",
@@ -33,10 +33,10 @@
     "static/media/slick-theme.css": "/masaj-ayurvedic/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.b3c191e9.js",
+    "static/js/runtime-main.4293b0c9.js",
     "static/css/2.007c3daf.chunk.css",
-    "static/js/2.d0cab8e7.chunk.js",
+    "static/js/2.104e2f13.chunk.js",
     "static/css/main.37d132d2.chunk.css",
-    "static/js/main.5d44335c.chunk.js"
+    "static/js/main.adc1c4d8.chunk.js"
   ]
 }
