@@ -22,7 +22,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                 </Info>
             </TopSide>
             <BottomSide>
-                <Logo src={logo} alt="salon masaj denisa timisoara"/>
+                <Logo src={logo} alt="salon masaj ayervedic timisoara"/>
                 <LinksWrapp>
                     <MyLink  duration={500} spy={true} exact="true" offset={-100} to="acasa">Acasă</MyLink>
                     <MyLink  duration={500} spy={true} exact="true" offset={-100} to="despre">Despre</MyLink>

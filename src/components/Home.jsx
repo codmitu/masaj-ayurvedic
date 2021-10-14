@@ -50,7 +50,7 @@ export const Home = () => {
                     initial={{opacity: 0, y: 100}} 
                     animate={{opacity: 1, y: 0}} 
                     transition={{delay: 1.3, duration: 1}} 
-                    src={img1} alt="salon masaj" />
+                    src={img1} alt="salon masaj timisoara" />
             </RightSide>
         </Container>
     )

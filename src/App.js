@@ -7,7 +7,6 @@ function App() {
   return (
     <div>
       <Router basename="/masaj-ayurvedic">
-        {/* <Router > */}
         <Switch>
           <Route path="/" exact>
             <MainPage />

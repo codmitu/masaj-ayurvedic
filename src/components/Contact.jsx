@@ -10,7 +10,7 @@ export const Contact = () => {
             <Title>Rezervă-ți locul</Title>
             <Wrapper>
                 <LeftSide>
-                    <Diploma src={diploma} alt="therapeutic body massage Denisa Petrin"/>
+                    <Diploma src={diploma} alt="diploma Denisa Petrin"/>
                 </LeftSide>
                 <RightSide>
                     <FormContact />
