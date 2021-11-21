@@ -119,6 +119,7 @@ export const FormContact = () => {
                     variant="contained"
                     color="primary"
                     type="submit"
+                    disabled
                     endIcon={<EventSeat />}
                 >
                     Rezervă Locul
@@ -134,6 +135,7 @@ const FormWrapper = styled.form`
     flex-direction: column;
     >button {
         border-radius: 0;
+        text-decoration: line-through;
         background-color: var(--col);
         &:hover {
             background-color: var(--cod);
