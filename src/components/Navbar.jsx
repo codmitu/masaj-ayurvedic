@@ -15,6 +15,9 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
         <Container>
             <TopSide>
                 <Info>
+                    <a href="https://pickmi.online" target="_blank">PickMi by codmitu</a>
+                </Info>
+                <Info>
                     <LocationPin/>&nbsp; Calea Aradului, Tmișoara
                 </Info>
                 <Info>
@@ -61,8 +64,22 @@ const Info = styled.small`
     display: flex;
     align-items: center;
     margin-right: 50px;
+    a {
+        position: fixed;
+        top: 7px;
+        left: 50px;
+        color: #fff;
+    }
     @media screen and (max-width: 500px) {
         margin-right: 20px;
+        a {
+            left: 20px;
+        }
+    }
+    @media screen and (max-width: 400px) {
+        a {
+            visibility: hidden;
+        }
     }
 `
 const BottomSide = styled.div`
